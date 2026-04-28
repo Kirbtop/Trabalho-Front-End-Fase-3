@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero - Planos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script src="js/script.js" defer></script>
+
+<body>
+
+<div class="Container">
+
+<header>
+    <h1>Escolha seu plano</h1>
+
+    <div class="Butoes">
+        <button id="BotaoMensal" class="Ativo">Mensal</button>
+        <button id="BotaoAnual">Anual</button>
+    </div>
+</header>
+
+<main class="Planos">
+
+    <div class="Card">
+        <h2>Basic</h2>
+        <p class="preco" data-mensal="19" data-anual="190">R$19/mês</p>
+
+        <ul>
+            <li>Acesso básico</li>
+            <li>Anúncios</li>
+        </ul>
+
+        <button>Assinar</button>
+    </div>
+
+    <div class="Card destaque" style="position: relative;">
+        <span class="MensagemEspecial">Mais vantajoso</span>
+        <h2>Pro</h2>
+        <p class="preco" data-mensal="39" data-anual="390">R$39/mês</p>
+
+        <ul>
+            <li>Sem anúncios</li>
+            <li>Qualidade HD</li>
+        </ul>
+
+        <button>Assinar</button>
+    </div>
+
+    <div class="Card">
+        <h2>Family</h2>
+        <p class="preco" data-mensal="59" data-anual="590">R$59/mês</p>
+
+        <ul>
+            <li>4 telas simultâneas</li>
+            <li>Qualidade Full HD</li>
+        </ul>
+
+        <button>Assinar</button>
+    </div>
+
+</main>
+
+</body>
+</html>
